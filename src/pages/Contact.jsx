@@ -16,7 +16,7 @@ function Contact() {
 
         <div className="contact-item">
           <h3>LinkedIn</h3>
-          <p><a href="https://www.linkedin.com/in/sanjiv-suresh-58221b39b/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sanjiv-suresh</a></p>
+          <p><a href="https://www.linkedin.com/in/sanjiv-suresh-58221b39b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
         </div>
 
         {/* Add more contact methods as needed */}
