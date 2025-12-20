@@ -1,3 +1,5 @@
+import ctaDiagram from '../assets/images/cta-diagram.png';
+
 function CaseStudy() {
   return (
     <div className="page case-study">
@@ -45,13 +47,9 @@ function CaseStudy() {
           </ol>
         </section>
 
-        {/* Task Flow Diagram - Add your image here */}
         <section className="artifact">
           <h2>Task Flow Diagram</h2>
-          <div className="image-placeholder">
-            {/* Replace with: <img src="/path-to-your-diagram.png" alt="Task Flow Diagram" /> */}
-            <p><em>[Task flow diagram will be added here]</em></p>
-          </div>
+          <img src={ctaDiagram} alt="Medical Coding Workflow Task Flow Diagram" className="diagram-image" />
         </section>
 
         <section>
