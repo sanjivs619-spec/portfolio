@@ -83,10 +83,11 @@ body {
 .navbar {
   background: var(--color-surface);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
-  width: 100%;
 }
 
 .nav-container {
@@ -145,7 +146,7 @@ body {
 /* Main content */
 .main-content {
   flex: 1;
-  padding-top: var(--space-xl);
+  padding-top: calc(70px + var(--space-xl)); /* Account for fixed navbar */
   padding-bottom: var(--space-xl);
   min-height: calc(100vh - 200px);
 }
