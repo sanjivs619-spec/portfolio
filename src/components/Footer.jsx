@@ -16,7 +16,7 @@ function Footer() {
           <a href="tel:+14803896098">(480) 389-6098</a>
         </div>
         <p className="copyright">
-          &copy; {new Date().getFullYear()} Sanjiv Suresh
+          &copy; {new Date().getFullYear()} Sanjiv Suresh. All rights reserved.
         </p>
       </div>
     </footer>
