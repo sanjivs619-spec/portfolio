@@ -19,7 +19,10 @@ function Contact() {
           <p><a href="https://www.linkedin.com/in/sanjiv-suresh-58221b39b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
         </div>
 
-        {/* Add more contact methods as needed */}
+        <div className="contact-item">
+          <h3>Phone</h3>
+          <p><a href="tel:+14803896098">(480) 389-6098</a></p>
+        </div>
       </section>
 
       <section className="contact-note">
