@@ -64,15 +64,21 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center all children horizontally */
 }
 
-/* Consistent content width across all sections */
+/*
+  Gestalt Alignment Principle: All content shares same visual grid
+  - Same max-width (1200px)
+  - Same horizontal padding (3rem)
+  - Centered with margin: auto
+*/
 .nav-container,
 .main-content,
 .footer-content {
   width: 100%;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: var(--space-xl);
   padding-right: var(--space-xl);
   box-sizing: border-box;
