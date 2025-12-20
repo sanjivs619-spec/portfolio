@@ -64,7 +64,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center children - footer uses align-self: stretch */
+}
+
+/* Main content wrapper - centers content same way as navbar */
+.main-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*
@@ -153,7 +160,6 @@ body {
 
 /* Main content */
 .main-content {
-  flex: 1;
   padding-top: calc(70px + var(--space-xl)); /* Account for fixed navbar */
   padding-bottom: var(--space-xl);
   min-height: calc(100vh - 200px);
