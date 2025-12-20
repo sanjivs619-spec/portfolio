@@ -108,6 +108,16 @@ body {
   padding: 3rem 0;
 }
 
+.headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .tagline {
   font-size: 1.25rem;
   color: #555;

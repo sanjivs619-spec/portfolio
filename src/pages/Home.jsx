@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
+import headshot from '../assets/images/headshot.png';
 
 function Home() {
   return (
     <div className="page home">
       <section className="hero">
+        <img src={headshot} alt="Sanjiv Suresh" className="headshot" />
         <h1>Hi, I'm Sanjiv</h1>
         <p className="tagline">
           UX & Human Factors–oriented engineering student passionate about
