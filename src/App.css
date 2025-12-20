@@ -311,6 +311,7 @@ body {
   border-radius: 16px;
   border: 1px solid var(--color-border);
   text-align: center;
+  width: 100%;
 }
 
 .differentiator h2 {
@@ -445,6 +446,7 @@ body {
 
 .about section {
   margin-bottom: var(--space-xl);
+  width: 100%;
 }
 
 .about ul {
@@ -501,6 +503,7 @@ body {
 
 .case-study section {
   margin-bottom: var(--space-xl);
+  width: 100%;
 }
 
 .case-study section:last-child {
@@ -518,6 +521,7 @@ body {
   border-radius: 12px;
   margin-bottom: var(--space-xl);
   border: 1px solid rgba(37, 99, 235, 0.2);
+  width: 100%;
 }
 
 .executive-summary h2 {
@@ -643,6 +647,7 @@ body {
   margin-bottom: var(--space-lg);
   padding-bottom: var(--space-lg);
   border-bottom: 1px solid var(--color-border);
+  width: 100%;
 }
 
 .resume-section:last-child {
@@ -809,6 +814,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-md);
   margin: var(--space-lg) 0;
+  width: 100%;
 }
 
 .contact-item {
