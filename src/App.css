@@ -47,6 +47,7 @@
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -73,16 +74,17 @@ body {
   top: 0;
   z-index: 100;
   width: 100%;
+  padding: 0 var(--space-lg);
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: var(--space-md) var(--space-lg);
+  padding: var(--space-md) 0;
   box-sizing: border-box;
 }
 
@@ -134,8 +136,8 @@ body {
 /* Main content */
 .main-content {
   flex: 1;
-  width: 100%;
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   padding: var(--space-xl) var(--space-lg);
   box-sizing: border-box;
