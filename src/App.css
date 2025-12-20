@@ -1020,4 +1020,8 @@ body {
   .nav-links {
     gap: var(--space-xs);
   }
+
+  .main-content {
+    padding-top: calc(130px + var(--space-lg)); /* Even more space for wrapped nav on small phones */
+  }
 }
