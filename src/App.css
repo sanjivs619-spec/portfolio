@@ -945,7 +945,10 @@ body {
   }
 
   .main-content {
-    padding: var(--space-lg) var(--space-sm);
+    padding-top: calc(110px + var(--space-lg)); /* Account for taller stacked navbar */
+    padding-bottom: var(--space-lg);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
   }
 
   .hero {
