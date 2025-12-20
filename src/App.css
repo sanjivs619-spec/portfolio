@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fafafa;
+  overflow-y: scroll;
 }
 
 .app {
@@ -29,6 +30,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
+  max-width: 100%;
+  width: 100%;
 }
 
 .nav-brand a {
