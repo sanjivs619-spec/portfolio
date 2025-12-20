@@ -71,11 +71,11 @@ body {
 .main-content,
 .footer-content {
   width: 100%;
-  max-width: 850px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--space-lg);
-  padding-right: var(--space-lg);
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
   box-sizing: border-box;
 }
 
@@ -184,7 +184,7 @@ body {
 .page p {
   margin-bottom: var(--space-sm);
   color: var(--color-text-secondary);
-  max-width: 65ch; /* Optimal reading width - reduces cognitive load */
+  max-width: 75ch; /* Comfortable reading width */
 }
 
 .page ul, .page ol {
@@ -204,7 +204,9 @@ body {
 /* ================================
    HOME PAGE - F-pattern optimized
    ================================ */
-/* Home page inherits main-content width */
+.home {
+  width: 100%;
+}
 
 .hero {
   text-align: center;
@@ -426,7 +428,9 @@ body {
 /* ================================
    ABOUT PAGE
    ================================ */
-/* About page inherits main-content width */
+.about {
+  width: 100%;
+}
 
 .about .bio {
   margin-bottom: var(--space-xl);
@@ -435,6 +439,7 @@ body {
 .about .bio p {
   font-size: var(--text-lg);
   line-height: 1.8;
+  max-width: 100%;
 }
 
 .about section {
@@ -467,13 +472,12 @@ body {
 /* ================================
    CASE STUDY - Progressive disclosure
    ================================ */
-/* Case study inherits main-content width */
+.case-study {
+  width: 100%;
+}
 
 .case-study article {
-  background: var(--color-surface);
-  padding: var(--space-xl);
-  border-radius: 16px;
-  border: 1px solid var(--color-border);
+  width: 100%;
 }
 
 .case-study header {
@@ -500,6 +504,10 @@ body {
 
 .case-study section:last-child {
   margin-bottom: 0;
+}
+
+.case-study p {
+  max-width: 100%;
 }
 
 /* Executive Summary - TL;DR for hiring managers */
@@ -578,7 +586,9 @@ body {
 /* ================================
    RESUME - Professional formatting
    ================================ */
-/* Resume inherits main-content width */
+.resume {
+  width: 100%;
+}
 
 .resume-header {
   text-align: center;
@@ -625,10 +635,7 @@ body {
 }
 
 .resume-body {
-  background: var(--color-surface);
-  padding: var(--space-lg);
-  border-radius: 12px;
-  border: 1px solid var(--color-border);
+  width: 100%;
 }
 
 .resume-section {
@@ -787,7 +794,9 @@ body {
 /* ================================
    CONTACT - Clear visual grouping
    ================================ */
-/* Contact inherits main-content width */
+.contact {
+  width: 100%;
+}
 
 .contact p {
   font-size: var(--text-lg);
@@ -970,14 +979,6 @@ body {
 
   .skills-container {
     grid-template-columns: 1fr;
-  }
-
-  .resume-body {
-    padding: var(--space-md);
-  }
-
-  .case-study article {
-    padding: var(--space-md);
   }
 
   .cta-section {
