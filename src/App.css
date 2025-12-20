@@ -279,6 +279,34 @@ body {
   border-color: var(--color-text-muted);
 }
 
+/* Differentiator section - What makes me unique */
+.differentiator {
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl);
+  background: var(--color-surface);
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.differentiator h2 {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+  color: var(--color-primary);
+}
+
+.differentiator-text {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: var(--text-lg);
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.differentiator-text strong {
+  color: var(--color-text);
+}
+
 /* Focus areas - Similarity principle (consistent card styling) */
 .focus-areas {
   margin-top: var(--space-3xl);
@@ -396,6 +424,50 @@ body {
 
 .case-study section:last-child {
   margin-bottom: 0;
+}
+
+/* Executive Summary - TL;DR for hiring managers */
+.executive-summary {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(37, 99, 235, 0.03));
+  padding: var(--space-lg);
+  border-radius: 12px;
+  margin-bottom: var(--space-xl);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.executive-summary h2 {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+  color: var(--color-primary);
+  font-size: var(--text-lg);
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.summary-item h4 {
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+  font-weight: 600;
+}
+
+.summary-item p {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Artifact display - Figure-ground (clear separation) */
@@ -531,6 +603,17 @@ body {
   text-decoration: underline;
 }
 
+.contact .response-time {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.contact-item.primary {
+  border-color: var(--color-accent);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(37, 99, 235, 0.02));
+}
+
 .contact-note {
   margin-top: var(--space-lg);
   color: var(--color-text-muted);
@@ -542,23 +625,45 @@ body {
    ================================ */
 .footer {
   text-align: center;
-  padding: var(--space-lg);
+  padding: var(--space-xl) var(--space-lg);
   background: var(--color-surface);
   color: var(--color-text-muted);
   font-size: var(--text-sm);
   border-top: 1px solid var(--color-border);
 }
 
-.footer p {
-  margin: var(--space-xs) 0;
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.footer-links .divider {
+  color: var(--color-border);
+}
+
+.footer .copyright {
+  margin: 0;
+  color: var(--color-text-muted);
 }
 
 .footer a {
   color: var(--color-primary);
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .footer a:hover {
+  color: var(--color-primary-hover);
   text-decoration: underline;
 }
 

@@ -77,7 +77,14 @@ function Resume() {
       </section>
 
       <div className="resume-download">
-        <p><em>[PDF download link will be added here]</em></p>
+        <a
+          href="/Sanjiv_Suresh_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn primary"
+        >
+          Download PDF Resume
+        </a>
       </div>
     </div>
   );

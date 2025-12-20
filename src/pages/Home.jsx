@@ -16,8 +16,26 @@ function Home() {
         </p>
         <div className="cta-buttons">
           <Link to="/case-study" className="btn primary">View My Work</Link>
-          <Link to="/about" className="btn secondary">About Me</Link>
+          <a
+            href="/Sanjiv_Suresh_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn secondary"
+          >
+            Download Resume
+          </a>
         </div>
+      </section>
+
+      <section className="differentiator">
+        <h2>Why Human Systems Engineering?</h2>
+        <p className="differentiator-text">
+          Most UX roles focus on digital products. I'm drawn to <strong>safety-critical systems</strong>—healthcare,
+          aviation, defense—where understanding human cognition isn't just about better experiences,
+          it's about <strong>preventing errors that matter</strong>. My training in Cognitive Task Analysis
+          and workflow mapping gives me tools to see what users can't articulate: the mental models,
+          decision points, and cognitive load that drive real-world performance.
+        </p>
       </section>
 
       <section className="focus-areas">

@@ -9,6 +9,29 @@ function CaseStudy() {
           <p className="case-meta">UX Research • Human Factors • Healthcare</p>
         </header>
 
+        {/* Executive Summary - TL;DR for busy hiring managers */}
+        <section className="executive-summary">
+          <h2>Executive Summary</h2>
+          <div className="summary-grid">
+            <div className="summary-item">
+              <h4>Context</h4>
+              <p>Medical coding requires high accuracy in complex information systems where errors impact billing and compliance.</p>
+            </div>
+            <div className="summary-item">
+              <h4>Method</h4>
+              <p>Conducted Cognitive Task Analysis interview with SME, mapped workflow, and identified error risks.</p>
+            </div>
+            <div className="summary-item">
+              <h4>My Role</h4>
+              <p>Led interview planning, task flow documentation, and cognitive load analysis.</p>
+            </div>
+            <div className="summary-item">
+              <h4>Key Finding</h4>
+              <p>Identified high cognitive load during code lookup and system navigation as primary error risk factors.</p>
+            </div>
+          </div>
+        </section>
+
         <section>
           <h2>Overview</h2>
           <p>
