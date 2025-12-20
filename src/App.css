@@ -198,7 +198,7 @@ body {
    HOME PAGE - F-pattern optimized
    ================================ */
 .home {
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -423,7 +423,7 @@ body {
    ABOUT PAGE
    ================================ */
 .about {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -581,7 +581,7 @@ body {
    RESUME - Professional formatting
    ================================ */
 .resume {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -792,6 +792,11 @@ body {
 /* ================================
    CONTACT - Clear visual grouping
    ================================ */
+.contact {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
 .contact p {
   font-size: var(--text-lg);
   margin-bottom: var(--space-lg);
