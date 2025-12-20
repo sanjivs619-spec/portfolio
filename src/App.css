@@ -74,7 +74,6 @@ body {
   top: 0;
   z-index: 100;
   width: 100%;
-  padding: 0 var(--space-lg);
 }
 
 .nav-container {
@@ -82,9 +81,9 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1100px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: var(--space-md) 0;
+  padding: var(--space-md) var(--space-lg);
   box-sizing: border-box;
 }
 
@@ -137,7 +136,7 @@ body {
 .main-content {
   flex: 1;
   width: 100%;
-  max-width: 1100px;
+  max-width: 850px;
   margin: 0 auto;
   padding: var(--space-xl) var(--space-lg);
   box-sizing: border-box;
@@ -197,10 +196,7 @@ body {
 /* ================================
    HOME PAGE - F-pattern optimized
    ================================ */
-.home {
-  max-width: 850px;
-  margin: 0 auto;
-}
+/* Home page inherits main-content width */
 
 .hero {
   text-align: center;
@@ -422,10 +418,7 @@ body {
 /* ================================
    ABOUT PAGE
    ================================ */
-.about {
-  max-width: 850px;
-  margin: 0 auto;
-}
+/* About page inherits main-content width */
 
 .about .bio {
   margin-bottom: var(--space-xl);
@@ -466,10 +459,7 @@ body {
 /* ================================
    CASE STUDY - Progressive disclosure
    ================================ */
-.case-study {
-  max-width: 850px;
-  margin: 0 auto;
-}
+/* Case study inherits main-content width */
 
 .case-study article {
   background: var(--color-surface);
@@ -580,10 +570,7 @@ body {
 /* ================================
    RESUME - Professional formatting
    ================================ */
-.resume {
-  max-width: 850px;
-  margin: 0 auto;
-}
+/* Resume inherits main-content width */
 
 .resume-header {
   text-align: center;
@@ -792,10 +779,7 @@ body {
 /* ================================
    CONTACT - Clear visual grouping
    ================================ */
-.contact {
-  max-width: 850px;
-  margin: 0 auto;
-}
+/* Contact inherits main-content width */
 
 .contact p {
   font-size: var(--text-lg);
@@ -870,8 +854,9 @@ body {
 }
 
 .footer-content {
-  max-width: 1100px;
+  max-width: 850px;
   margin: 0 auto;
+  padding: 0 var(--space-lg);
 }
 
 .footer-links {
