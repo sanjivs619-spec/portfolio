@@ -869,6 +869,7 @@ body {
    FOOTER
    ================================ */
 .footer {
+  align-self: stretch; /* Break out of centered container */
   width: 100%;
   text-align: center;
   padding: var(--space-xl) var(--space-lg);
