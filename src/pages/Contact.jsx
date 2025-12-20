@@ -11,12 +11,12 @@ function Contact() {
       <section className="contact-info">
         <div className="contact-item">
           <h3>Email</h3>
-          <p><a href="mailto:your.email@asu.edu">your.email@asu.edu</a></p>
+          <p><a href="mailto:Sanjivsuresh619@gmail.com">Sanjivsuresh619@gmail.com</a></p>
         </div>
 
         <div className="contact-item">
           <h3>LinkedIn</h3>
-          <p><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+          <p><a href="https://www.linkedin.com/in/sanjiv-suresh-58221b39b/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sanjiv-suresh</a></p>
         </div>
 
         {/* Add more contact methods as needed */}
