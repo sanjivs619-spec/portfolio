@@ -156,10 +156,12 @@ body {
   border-radius: 1px;
 }
 
-/* Main content - full width wrapper, pages use .container */
+/* Main content - flex container that centers pages like navbar centers nav */
 .main-content {
   flex: 1;
   padding-top: 70px; /* Account for fixed navbar height */
+  display: flex;
+  justify-content: center;
 }
 
 /* Page styles */
