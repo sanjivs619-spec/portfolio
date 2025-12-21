@@ -99,8 +99,6 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  display: flex;
-  justify-content: center; /* Center nav-container */
 }
 
 .nav-inner {
@@ -156,12 +154,10 @@ body {
   border-radius: 1px;
 }
 
-/* Main content - flex container that centers pages like navbar centers nav */
+/* Main content wrapper */
 .main-content {
   flex: 1;
   padding-top: 70px; /* Account for fixed navbar height */
-  display: flex;
-  justify-content: center;
 }
 
 /* Page styles */
