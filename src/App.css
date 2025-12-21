@@ -94,10 +94,8 @@ body {
 .navbar {
   background: var(--color-surface);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 100;
 }
 
@@ -157,7 +155,6 @@ body {
 /* Main content wrapper */
 .main-content {
   flex: 1;
-  padding-top: 70px; /* Account for fixed navbar height */
 }
 
 /* Page styles */
@@ -949,9 +946,6 @@ body {
     font-size: 0.75rem;
   }
 
-  .main-content {
-    padding-top: 110px; /* Account for taller stacked navbar */
-  }
 
   .hero {
     padding: var(--space-lg) 0;
@@ -1021,9 +1015,5 @@ body {
 @media (max-width: 480px) {
   .nav-links {
     gap: var(--space-xs);
-  }
-
-  .main-content {
-    padding-top: 130px; /* Even more space for wrapped nav on small phones */
   }
 }
