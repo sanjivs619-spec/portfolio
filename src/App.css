@@ -46,6 +46,7 @@
 
 html {
   overflow-y: scroll; /* Always show scrollbar to prevent layout shift */
+  scrollbar-gutter: stable; /* Reserve space for scrollbar even when not needed */
   scroll-behavior: smooth;
 }
 
