@@ -922,6 +922,68 @@ body {
 }
 
 /* ================================
+   MOBILE MENU
+   ================================ */
+
+/* Mobile menu button - hidden on desktop */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  padding: var(--space-xs);
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.hamburger-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Mobile menu panel */
+.mobile-menu {
+  display: none;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 400px;
+}
+
+.mobile-nav-links {
+  list-style: none;
+  padding: var(--space-sm) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.mobile-nav-links li a {
+  display: block;
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--text-base);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.mobile-nav-links li a:hover {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.mobile-nav-links li a.active {
+  color: var(--color-primary);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(37, 99, 235, 0.04));
+}
+
+/* ================================
    RESPONSIVE - Maintain hierarchy
    ================================ */
 @media (max-width: 768px) {
@@ -930,21 +992,22 @@ body {
     --text-3xl: 1.75rem;
   }
 
+  /* Show hamburger, hide desktop nav */
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
   .nav-inner {
-    flex-direction: column;
-    gap: var(--space-sm);
+    flex-direction: row;
   }
-
-  .nav-links {
-    gap: var(--space-sm);
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-links a {
-    font-size: 0.75rem;
-  }
-
 
   .hero {
     padding: var(--space-lg) 0;
@@ -1008,11 +1071,5 @@ body {
 
   .cta-section p {
     font-size: var(--text-base);
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-links {
-    gap: var(--space-xs);
   }
 }
