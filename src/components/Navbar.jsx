@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="nav-container">
+      <div className="container nav-inner">
         <div className="nav-brand">
           <NavLink to="/">Sanjiv Suresh</NavLink>
         </div>

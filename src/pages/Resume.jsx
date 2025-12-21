@@ -8,7 +8,7 @@ function Resume() {
   };
 
   return (
-    <div className="page resume">
+    <div className="page resume container">
       {/* Header with contact info */}
       <header className="resume-header">
         <HeroText>

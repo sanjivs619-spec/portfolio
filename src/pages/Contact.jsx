@@ -2,7 +2,7 @@ import { FadeUp, HeroText, InteractiveCard, StaggerContainer, StaggerItem } from
 
 function Contact() {
   return (
-    <div className="page contact">
+    <div className="page contact container">
       <HeroText>
         <h1>Get in Touch</h1>
       </HeroText>

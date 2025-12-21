@@ -4,7 +4,7 @@ import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/a
 
 function CaseStudy() {
   return (
-    <div className="page case-study">
+    <div className="page case-study container">
       <article>
         <header>
           <HeroText>

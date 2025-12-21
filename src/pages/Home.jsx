@@ -12,7 +12,7 @@ import {
 
 function Home() {
   return (
-    <div className="page home">
+    <div className="page home container">
       <section className="hero">
         <FloatingElement>
           <div className="headshot-wrapper">

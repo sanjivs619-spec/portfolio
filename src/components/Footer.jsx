@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-content">
+      <div className="container footer-content">
         <div className="footer-links">
           <a href="mailto:Sanjivsuresh619@gmail.com">Email</a>
           <span className="divider">•</span>

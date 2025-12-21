@@ -66,30 +66,28 @@ body {
   flex-direction: column;
 }
 
-/* Main content wrapper - centers content same way as navbar */
-.main-wrapper {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 /*
-  Gestalt Alignment Principle: All content shares same visual grid
-  - Same max-width (1200px)
-  - Same horizontal padding (3rem)
+  Gestalt Alignment Principle: Single container class for all content
+  - Same max-width (1152px / 72rem like Tailwind max-w-6xl)
+  - Same horizontal padding
   - Centered with margin: auto
+  Used by: navbar, all page sections, footer
 */
-.nav-container,
-.main-content,
-.footer-content {
+.container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 72rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--space-xl);
-  padding-right: var(--space-xl);
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
   box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+  }
 }
 
 /* Navbar - Continuity principle (consistent top anchor) */
@@ -105,7 +103,7 @@ body {
   justify-content: center; /* Center nav-container */
 }
 
-.nav-container {
+.nav-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,16 +156,16 @@ body {
   border-radius: 1px;
 }
 
-/* Main content */
+/* Main content - full width wrapper, pages use .container */
 .main-content {
-  padding-top: calc(70px + var(--space-xl)); /* Account for fixed navbar */
-  padding-bottom: var(--space-xl);
-  min-height: calc(100vh - 200px);
+  flex: 1;
+  padding-top: 70px; /* Account for fixed navbar height */
 }
 
 /* Page styles */
 .page {
-  /* Animations handled by Framer Motion */
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
 }
 
 /* Typography - Clear visual hierarchy */
@@ -938,7 +936,7 @@ body {
     --text-3xl: 1.75rem;
   }
 
-  .nav-container {
+  .nav-inner {
     flex-direction: column;
     gap: var(--space-sm);
   }
@@ -954,10 +952,7 @@ body {
   }
 
   .main-content {
-    padding-top: calc(110px + var(--space-lg)); /* Account for taller stacked navbar */
-    padding-bottom: var(--space-lg);
-    padding-left: var(--space-sm);
-    padding-right: var(--space-sm);
+    padding-top: 110px; /* Account for taller stacked navbar */
   }
 
   .hero {
@@ -1031,6 +1026,6 @@ body {
   }
 
   .main-content {
-    padding-top: calc(130px + var(--space-lg)); /* Even more space for wrapped nav on small phones */
+    padding-top: 130px; /* Even more space for wrapped nav on small phones */
   }
 }

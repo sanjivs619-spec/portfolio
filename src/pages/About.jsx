@@ -2,7 +2,7 @@ import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/a
 
 function About() {
   return (
-    <div className="page about">
+    <div className="page about container">
       <HeroText>
         <h1>About Me</h1>
       </HeroText>
