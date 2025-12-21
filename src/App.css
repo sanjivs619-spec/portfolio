@@ -62,7 +62,7 @@ body {
 }
 
 .app {
-  min-height: 100vh;
+  min-height: 100.1vh; /* Slightly taller than viewport to force scrollbar */
   display: flex;
   flex-direction: column;
 }
@@ -156,6 +156,7 @@ body {
 /* Main content wrapper */
 .main-content {
   flex: 1;
+  min-height: calc(100vh - 60px); /* Ensure consistent height across all pages */
 }
 
 /* Page styles */
