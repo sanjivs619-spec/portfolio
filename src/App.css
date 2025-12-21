@@ -48,10 +48,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: var(--text-base);
@@ -60,14 +56,12 @@ body {
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   min-width: 320px;
-  overflow-x: hidden;
 }
 
 .app {
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll; /* App is the scroll container */
 }
 
 /*
@@ -94,14 +88,15 @@ body {
   }
 }
 
-/* Navbar - Continuity principle (consistent top anchor) */
+/* Navbar - Fixed header spanning full viewport (Kennedy's pattern) */
 .navbar {
-  background: var(--color-surface);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
-  flex-shrink: 0; /* Prevent navbar from shrinking */
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .nav-inner {
@@ -157,9 +152,10 @@ body {
   border-radius: 1px;
 }
 
-/* Main content wrapper */
+/* Main content wrapper - offset for fixed navbar */
 .main-content {
   flex: 1;
+  padding-top: 5rem; /* Offset for fixed navbar (~80px) */
 }
 
 /* Page styles */
@@ -880,22 +876,20 @@ body {
 }
 
 /* ================================
-   FOOTER
+   FOOTER - Same pattern as navbar (full-width container)
    ================================ */
 .footer {
-  align-self: stretch; /* Break out of centered container */
   width: 100%;
-  text-align: center;
-  padding: var(--space-xl) var(--space-lg);
   background: var(--color-surface);
-  color: var(--color-text-muted);
-  font-size: var(--text-sm);
   border-top: 1px solid var(--color-border);
-  display: flex;
-  justify-content: center;
+  padding: var(--space-xl) 0;
 }
 
-/* footer-content uses shared styles from above */
+.footer-content {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
 
 .footer-links {
   display: flex;
