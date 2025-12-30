@@ -266,6 +266,7 @@ body {
   font-size: var(--text-base);
   margin-bottom: var(--space-lg);
   text-align: center;
+  width: 100%;
 }
 
 /* CTA Buttons - Von Restorff effect (distinctive to draw attention) */
@@ -974,6 +975,7 @@ body {
   color: var(--color-primary);
   font-weight: 500;
   margin-bottom: var(--space-sm);
+  text-align: center;
 }
 
 .resume-contact {
