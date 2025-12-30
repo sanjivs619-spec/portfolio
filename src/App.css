@@ -977,8 +977,10 @@ body {
   font-size: var(--text-lg);
   color: var(--color-primary);
   font-weight: 500;
-  margin-bottom: var(--space-sm);
+  margin: 0 auto var(--space-sm) auto;
   text-align: center;
+  width: 100%;
+  max-width: none;
 }
 
 .resume-contact {
