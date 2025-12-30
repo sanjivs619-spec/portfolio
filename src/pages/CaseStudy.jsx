@@ -62,7 +62,7 @@ function CaseStudy() {
               </div>
               <div className="summary-item">
                 <h4>My Role</h4>
-                <p>Led HSI requirements generation across 7 pillars and evaluated 3M CodeFinder against criteria.</p>
+                <p>As a Human Systems Engineering student, conducted CTA, requirements generation, and trade study evaluation.</p>
               </div>
               <div className="summary-item">
                 <h4>Deliverables</h4>
@@ -211,6 +211,11 @@ function CaseStudy() {
                 </ul>
               </div>
             </div>
+
+            <p className="evaluation-note">
+              <em>Note: Evaluation was conducted without direct access to proprietary system data;
+              findings are based on expert interview and workflow analysis.</em>
+            </p>
           </section>
         </FadeUp>
 
@@ -258,6 +263,11 @@ function CaseStudy() {
               The trade-off analysis approach—evaluating a commercial system against generated
               requirements—provides clear, actionable insights for procurement decisions or
               product improvement roadmaps.
+            </p>
+            <p>
+              This project reflects my interest in applying HSI methods to safety-critical
+              healthcare systems—where better human factors design directly impacts patient
+              outcomes and provider wellbeing.
             </p>
           </section>
         </FadeUp>
