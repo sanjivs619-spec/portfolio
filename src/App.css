@@ -264,9 +264,12 @@ body {
 .subtitle {
   color: var(--color-text-muted);
   font-size: var(--text-base);
-  margin-bottom: var(--space-lg);
+  margin: 0 auto var(--space-lg) auto;
   text-align: center;
   width: 100%;
+  max-width: none;
+  display: block;
+  padding: 0;
 }
 
 /* CTA Buttons - Von Restorff effect (distinctive to draw attention) */
