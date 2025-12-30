@@ -1,4 +1,4 @@
-import ctaDiagram from '../assets/images/cta-diagram.png';
+import flowchartDiagram from '../assets/images/3m-flowchart.png';
 import { motion } from 'framer-motion';
 import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/animations';
 
@@ -128,8 +128,8 @@ function CaseStudy() {
           <section className="artifact">
             <h2>Task Flow Diagram</h2>
             <motion.img
-              src={ctaDiagram}
-              alt="Medical Coding Workflow Task Flow Diagram"
+              src={flowchartDiagram}
+              alt="3M CodeFinder HSI Evaluation Flow Chart"
               className="diagram-image"
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
