@@ -31,6 +31,7 @@ export function HeroText({ children, delay = 0, className = "" }) {
         ease: [0.25, 0.4, 0.25, 1],
       }}
       className={className}
+      style={{ width: '100%', textAlign: 'center' }}
     >
       {children}
     </motion.div>
