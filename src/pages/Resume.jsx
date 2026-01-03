@@ -155,7 +155,7 @@ function Resume() {
         <div className="resume-download">
           <AnimatedButton>
             <a
-              href="/Sanjiv_Suresh_Resume.pdf"
+              href="/Sanjiv_Suresh_HSE_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn primary"
