@@ -36,10 +36,11 @@ function Resume() {
           <section className="resume-section">
             <h2 className="section-title">Summary</h2>
             <p className="summary-text">
-              Human Factors–focused engineering student with hands-on experience in Cognitive Task Analysis
-              and workflow evaluation. Skilled at identifying cognitive load, error risks, and usability
-              issues in complex systems. Seeking Summer 2026 internship to apply human factors methods
-              in healthcare, aviation, or safety-critical industries.
+              Human Systems Engineering student with applied experience in Cognitive Task Analysis (CTA), workflow evaluation, and
+              human factors research within complex systems, including healthcare contexts. Demonstrated ability to identify usability
+              risks, cognitive load drivers, and error-prone interactions in safety-critical environments. Skilled in translating task analysis
+              findings into clear, actionable recommendations to improve system usability, efficiency, and safety. Seeking a Summer
+              2026 internship in human factors, user experience, or systems-oriented roles.
             </p>
           </section>
         </FadeUp>
