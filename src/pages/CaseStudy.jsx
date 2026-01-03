@@ -155,8 +155,8 @@ function CaseStudy() {
                 <motion.div
                   key={req.id}
                   className="requirement-row"
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}
                   viewport={{ once: true }}
                 >
