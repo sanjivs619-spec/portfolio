@@ -46,6 +46,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -56,12 +57,21 @@ body {
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   min-width: 320px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 /*
@@ -156,6 +166,7 @@ body {
 .main-content {
   flex: 1;
   padding-top: 5rem; /* Offset for fixed navbar (~80px) */
+  width: 100%;
 }
 
 /* Page styles */
