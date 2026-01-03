@@ -32,7 +32,7 @@ function Home() {
         </HeroText>
         <HeroText delay={0.2}>
           <p className="subtitle">
-            Human Systems Engineering & User Experience @ ASU
+            Human Systems Engineering & User Experience @ Arizona State University
           </p>
         </HeroText>
         <HeroText delay={0.3}>
