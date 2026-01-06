@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/animations';
+import classicInterface from '../assets/images/salesforce-cpq-1.png';
+import lightningInterface from '../assets/images/salesforce-cpq-2.png';
 
 function CaseStudySalesforceCPQ() {
   // HSI Pillars used in this evaluation
@@ -175,6 +177,38 @@ function CaseStudySalesforceCPQ() {
               Classic view, which she reports is easier to navigate and less overwhelming than the
               Lightning interface.
             </p>
+
+            {/* Interface Screenshots */}
+            <div className="interface-screenshots">
+              <div className="screenshot-container">
+                <motion.img
+                  src={classicInterface}
+                  alt="Salesforce CPQ Classic interface showing linear navigation, opportunity tracking, and task management"
+                  className="interface-screenshot"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.3 }}
+                />
+                <p className="screenshot-caption">
+                  <strong>Figure 1:</strong> Salesforce CPQ Classic interface. The layout supports linear navigation,
+                  opportunity tracking, and task management while requiring manual data entry for service agreement creation.
+                </p>
+              </div>
+
+              <div className="screenshot-container">
+                <motion.img
+                  src={lightningInterface}
+                  alt="Salesforce CPQ Lightning interface with visually dense layout"
+                  className="interface-screenshot"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.3 }}
+                />
+                <p className="screenshot-caption">
+                  <strong>Figure 2:</strong> Salesforce CPQ Lightning interface. The visually dense layout increases
+                  cognitive load and was described by the user as overwhelming compared to the Classic view.
+                </p>
+              </div>
+            </div>
+
             <div className="comparison-grid">
               <div className="comparison-card positive">
                 <h4>Classic Interface (Preferred)</h4>
