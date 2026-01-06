@@ -18,7 +18,7 @@ function Projects() {
       title: 'Salesforce CPQ',
       subtitle: 'Service Agreement Management System',
       description: 'Evaluated Salesforce CPQ for inside sales personnel managing medical device service agreements. Identified trade-offs between system flexibility and error prevention, recommending targeted automation improvements.',
-      tags: ['Workflow Analysis', 'Trade-off Analysis', 'Enterprise UX'],
+      tags: ['Workflow Analysis', 'Trade-off Analysis', 'Enterprise UX', 'Medical Device'],
       metrics: { requirements: 5, met: 0, partial: 3, unmet: 2 },
       link: '/case-study/salesforce-cpq',
     },
