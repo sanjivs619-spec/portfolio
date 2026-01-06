@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import flowchartDiagram from '../assets/images/3m-flowchart.png';
 import { motion } from 'framer-motion';
 import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/animations';
@@ -38,6 +39,11 @@ function CaseStudy() {
   return (
     <div className="page case-study container">
       <article>
+        {/* Back to Work link */}
+        <FadeUp>
+          <Link to="/work" className="back-link">← Back to All Work</Link>
+        </FadeUp>
+
         <header>
           <HeroText>
             <h1>HSI Requirements & Evaluation: Medical Coding Systems</h1>
@@ -287,6 +293,20 @@ function CaseStudy() {
               <span className="method-tag">Healthcare Domain</span>
               <span className="method-tag">Safety-Critical Systems</span>
             </div>
+          </section>
+        </FadeUp>
+
+        {/* Navigation to other case studies */}
+        <FadeUp>
+          <section className="case-study-nav">
+            <Link to="/work" className="nav-link all">
+              <span className="nav-label">View All</span>
+              <span className="nav-title">My Work</span>
+            </Link>
+            <Link to="/case-study/salesforce-cpq" className="nav-link next">
+              <span className="nav-label">Next Case Study</span>
+              <span className="nav-title">Salesforce CPQ</span>
+            </Link>
           </section>
         </FadeUp>
       </article>
