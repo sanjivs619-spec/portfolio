@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FadeUp, HeroText, StaggerContainer, StaggerItem } from '../components/animations';
 import classicInterface from '../assets/images/salesforce-cpq-1.png';
 import lightningInterface from '../assets/images/salesforce-cpq-2.png';
+import workflowDiagram from '../assets/images/salesforce-cpq-workflow.png';
 
 function CaseStudySalesforceCPQ() {
   // HSI Pillars used in this evaluation
@@ -165,6 +166,24 @@ function CaseStudySalesforceCPQ() {
                 </p>
               </div>
             </div>
+          </section>
+        </FadeUp>
+
+        {/* Workflow Diagram */}
+        <FadeUp>
+          <section className="artifact">
+            <h2>Service Agreement Workflow</h2>
+            <p>
+              Mapped the end-to-end workflow from identifying expiring contracts to final submission,
+              highlighting decision points and areas where manual processes increase cognitive load.
+            </p>
+            <motion.img
+              src={workflowDiagram}
+              alt="Service Agreement Workflow Diagram showing 5 steps from identifying opportunities to submitting to operations"
+              className="diagram-image"
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.3 }}
+            />
           </section>
         </FadeUp>
 
