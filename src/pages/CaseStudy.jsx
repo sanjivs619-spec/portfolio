@@ -249,7 +249,7 @@ function CaseStudy() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Research on simulation training shows 30-50% faster skill acquisition and 40% reduction in early-career errors.</span>
+                  <span className="impact-value">A systematic review of 600+ studies shows simulation training improves skill acquisition and retention (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11224887/" target="_blank" rel="noopener noreferrer">PMC, 2024</a>; <a href="https://psnet.ahrq.gov/primer/simulation-training" target="_blank" rel="noopener noreferrer">AHRQ PSNet</a>).</span>
                 </div>
               </motion.div>
 
@@ -270,7 +270,7 @@ function CaseStudy() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Based on healthcare IT benchmarks, automated validation can reduce coding errors by 60-75% and prevent costly claim denials.</span>
+                  <span className="impact-value">Clinical decision support systems reduce medication errors by ~50% across specialties (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8214039/" target="_blank" rel="noopener noreferrer">NCBI meta-analysis</a>). Similar validation could prevent costly claim denials.</span>
                 </div>
               </motion.div>
 
@@ -291,7 +291,7 @@ function CaseStudy() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Integrated communication reduces context-switching overhead by 15-25% (cognitive psychology research on task interruption).</span>
+                  <span className="impact-value">Research shows it takes 23+ minutes to refocus after an interruption (<a href="https://ics.uci.edu/~gmark/chi08-mark.pdf" target="_blank" rel="noopener noreferrer">Gloria Mark, UC Irvine</a>). Integrated communication reduces this context-switching cost.</span>
                 </div>
               </motion.div>
             </div>

@@ -1031,6 +1031,16 @@ body {
   line-height: 1.5;
 }
 
+.impact-value a {
+  color: #16a34a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.impact-value a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .recommendations-cards {
     grid-template-columns: 1fr;

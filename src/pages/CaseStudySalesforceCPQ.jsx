@@ -409,7 +409,7 @@ function CaseStudySalesforceCPQ() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Based on industry benchmarks for form automation, this could reduce pricing errors by 60-80% and save 5-10 minutes per agreement.</span>
+                  <span className="impact-value">Healthcare IT research shows clinical decision support systems reduce medication errors by ~50% (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8214039/" target="_blank" rel="noopener noreferrer">NCBI meta-analysis</a>). Similar automation could significantly reduce pricing errors.</span>
                 </div>
               </motion.div>
 
@@ -430,7 +430,7 @@ function CaseStudySalesforceCPQ() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Error-proofing mechanisms typically eliminate 90%+ of selection errors (based on poka-yoke research in manufacturing systems).</span>
+                  <span className="impact-value">Poka-yoke (error-proofing) research shows 35% error reduction in manufacturing case studies, with 25% productivity gains (<a href="https://asq.org/quality-resources/mistake-proofing" target="_blank" rel="noopener noreferrer">ASQ</a>).</span>
                 </div>
               </motion.div>
 
@@ -451,7 +451,7 @@ function CaseStudySalesforceCPQ() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Structured data entry reduces omission errors by 40-60% compared to free-text notes (cognitive psychology research).</span>
+                  <span className="impact-value">Research shows interruptions require 23+ minutes to refocus (<a href="https://ics.uci.edu/~gmark/chi08-mark.pdf" target="_blank" rel="noopener noreferrer">Gloria Mark, UC Irvine</a>). Structured tracking reduces context-switching overhead.</span>
                 </div>
               </motion.div>
 
@@ -472,7 +472,7 @@ function CaseStudySalesforceCPQ() {
                 </p>
                 <div className="rec-impact">
                   <span className="impact-label">Estimated Impact:</span>
-                  <span className="impact-value">Real-time validation can reduce cognitive load by 20-30% and catch errors before submission (based on form usability research).</span>
+                  <span className="impact-value">CDSS with real-time feedback reduces errors by 55% in healthcare settings (<a href="https://www.ncbi.nlm.nih.gov/books/NBK600580/" target="_blank" rel="noopener noreferrer">AHRQ</a>). Inline validation applies this principle to contract workflows.</span>
                 </div>
               </motion.div>
             </div>
