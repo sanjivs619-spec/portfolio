@@ -64,6 +64,10 @@ function Home() {
             and workflow mapping gives me tools to see what users can't articulate: the mental models,
             decision points, and cognitive load that drive real-world performance.
           </p>
+          <p className="positioning-statement">
+            <strong>My approach:</strong> I apply HSI methods—Cognitive Task Analysis, requirements engineering,
+            and trade-off evaluation—to systematically identify gaps that traditional usability testing might miss.
+          </p>
         </section>
       </FadeUp>
 
