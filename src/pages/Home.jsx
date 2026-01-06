@@ -92,7 +92,7 @@ function Home() {
             <InteractiveCard>
               <div className="focus-card">
                 <h3>Systems Thinking</h3>
-                <p>Understanding how people and systems interact to improve safety and usability.</p>
+                <p>Understanding how people and systems interact to improve safety, usability, and performance.</p>
               </div>
             </InteractiveCard>
           </StaggerItem>
