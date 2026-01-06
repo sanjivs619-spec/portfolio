@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { HeroText, FadeUp, StaggerContainer, StaggerItem, InteractiveCard } from '../components/animations';
 
-function Work() {
-  const caseStudies = [
+function Projects() {
+  const projects = [
     {
       id: 1,
       title: 'Medical Coding Systems',
@@ -25,13 +25,13 @@ function Work() {
   ];
 
   return (
-    <div className="page work container">
+    <div className="page projects container">
       <header>
         <HeroText>
-          <h1>My Work</h1>
+          <h1>My Projects</h1>
         </HeroText>
         <HeroText delay={0.1}>
-          <p className="work-intro">
+          <p className="projects-intro">
             Human Systems Integration projects applying HSI methods to evaluate and improve
             complex systems in healthcare and enterprise environments.
           </p>
@@ -39,7 +39,7 @@ function Work() {
       </header>
 
       <StaggerContainer className="case-studies-grid">
-        {caseStudies.map((study, index) => (
+        {projects.map((study, index) => (
           <StaggerItem key={study.id}>
             <InteractiveCard>
               <Link to={study.link} className="case-study-card">
@@ -83,7 +83,7 @@ function Work() {
       </StaggerContainer>
 
       <FadeUp>
-        <section className="work-cta">
+        <section className="projects-cta">
           <h2>Interested in my approach?</h2>
           <p>
             Each project demonstrates how Human Systems Integration methods can systematically
@@ -96,4 +96,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Projects;

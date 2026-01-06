@@ -72,7 +72,7 @@ function CaseStudySalesforceCPQ() {
       <article>
         {/* Back to Work link */}
         <FadeUp>
-          <Link to="/work" className="back-link">← Back to All Work</Link>
+          <Link to="/projects" className="back-link">← Back to All Projects</Link>
         </FadeUp>
 
         <header>
@@ -450,9 +450,9 @@ function CaseStudySalesforceCPQ() {
               <span className="nav-label">Previous Case Study</span>
               <span className="nav-title">Medical Coding Systems</span>
             </Link>
-            <Link to="/work" className="nav-link all">
+            <Link to="/projects" className="nav-link all">
               <span className="nav-label">View All</span>
-              <span className="nav-title">My Work</span>
+              <span className="nav-title">My Projects</span>
             </Link>
           </section>
         </FadeUp>

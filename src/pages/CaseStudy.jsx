@@ -41,7 +41,7 @@ function CaseStudy() {
       <article>
         {/* Back to Work link */}
         <FadeUp>
-          <Link to="/work" className="back-link">← Back to All Work</Link>
+          <Link to="/projects" className="back-link">← Back to All Projects</Link>
         </FadeUp>
 
         <header>
@@ -299,9 +299,9 @@ function CaseStudy() {
         {/* Navigation to other case studies */}
         <FadeUp>
           <section className="case-study-nav">
-            <Link to="/work" className="nav-link all">
+            <Link to="/projects" className="nav-link all">
               <span className="nav-label">View All</span>
-              <span className="nav-title">My Work</span>
+              <span className="nav-title">My Projects</span>
             </Link>
             <Link to="/case-study/salesforce-cpq" className="nav-link next">
               <span className="nav-label">Next Case Study</span>

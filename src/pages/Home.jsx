@@ -38,7 +38,7 @@ function Home() {
         <HeroText delay={0.3}>
           <div className="cta-buttons">
             <AnimatedButton>
-              <Link to="/work" className="btn primary">View My Work</Link>
+              <Link to="/projects" className="btn primary">View My Projects</Link>
             </AnimatedButton>
             <AnimatedButton>
               <a
